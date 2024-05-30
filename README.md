@@ -2,18 +2,16 @@
 
 &nbsp;
 
-# `#01` JavaScript: Podstawy – pętle
+# `#03` JavaScript: Podstawy – pętle
 
-W pliku `app.js` jest zadeklarowana zmienna o nazwie `randomNumber`, która przyjmuje losowe liczby z przedziału od 0 do 20 (przeczytaj w specyfikacji, jak działa [Math.random()](https://www.w3schools.com/js/js_random.asp)). 
+W zadaniu [#01]((./../01)) miałeś przykład, w jaki sposób wylosować liczbę z przedziału od 0 do 20. Teraz Twoim zadaniem będzie wylosowanie przy pomocy pętli `while` liczby przechowywanej w zmiennej `x`. Wartość dla zmiennej `x` może być dowolna z losowanego przedziału, czyli np. `const x = 5`.
 
-Twoim zadaniem jest napisać program, który będzie sprawdzał, czy wylosowana liczba jest większa od 5:
-- Jeśli tak, to należy wykorzystać pętle `for`, aby wyświetlić w konsoli wszystkie liczby od 5 do wylosowanej wartości. Jeśli więc program wylosuje liczbę 10, to w konsoli powinniśmy wyświetlić liczby: 5, 6, 7, 8, 9, 10.
-- Jeśli nie, to w konsoli należy wyświetlić informację: "Wylosowana liczba jest zbyt mała, aby użyć pętli".
+W zmiennej `iteration` masz zbierać informacje o tym, ile razy musiała być wykonana pętla `while`, aby móc wylosować wartość przechowywaną w zmiennej `x`. Wartość zmiennej `iteration` wyświetl w konsoli po zakończeniu wykonywania pętli. Do przechowywania wylosowanej liczby możesz wykorzystać zmienną `randomNumber`. 
 
-Zwróć uwagę na konstrukcję dwóch powyższych zdań: "Jeśli prawda, to zrób to; jeśli fałsz, to zrób coś innego". Oba jednoznacznie wskazują na to, że oprócz samej pętli `for`, należy w tym zadaniu wykorzystać również instrukcję warunkową `if`.
+Zanim zaczniesz rozwiązywać to zadanie, zastanów się, w którym miejscu będziesz losować liczbę oraz jaki powinien być warunek dla pętli `while`.
 
 
 &nbsp;
 > :no_entry: *Jeśli nie posiadasz materiałów do tego zadania tj. **PDF + wideo, projekt + Code Review**, znajdziesz je na stronie [devmentor.pl](https://devmentor.pl/workshop-js-basics/)*
 
-> :arrow_left: ~~*poprzednie zadanie*~~ | [*następne zadanie*](./../02) :arrow_right:
+> :arrow_left: [*poprzednie zadanie*](./../02) | ~~*następne zadanie*~~ :arrow_right:
